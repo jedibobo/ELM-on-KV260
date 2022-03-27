@@ -38,7 +38,7 @@ The intention is to get the `quant_info.json file`, please rename it to `CNN_qua
 
 ### generate float model
 
-<img src="images\generate_model.png" alt="Generating Model using Normal Distribution" />
+<img src="images/generate_model.png" alt="Generating Model using Normal Distribution" />
 run the following command in **Vitis-AI docker**:
 
 ```shell
@@ -60,7 +60,7 @@ For example:
 
 
 <center class="half">
-    <img src="images\image-20220327161712466.png" alt="image-20220327161712466" width="200" style="zoom:200%;"/><img src="images\image-20220327161803323.png" width="200" style="zoom:200%;"/>
+    <img src="images/image-20220327161712466.png" alt="image-20220327161712466" width="200" style="zoom:200%;"/><img src="images/image-20220327161803323.png" width="200" style="zoom:200%;"/>
 </center>
 
 The clearer images are in dir `images`.
@@ -69,7 +69,7 @@ The clearer images are in dir `images`.
 
 The last lines of generate model will quantize the ELM model, with out calibration.
 
-![image-20220327163629078](images\image-20220327163629078.png)
+![image-20220327163629078](images/image-20220327163629078.png)
 
 The name of quantized model is `ELM_CNN_int.xmodel`.Next, use the compile.sh to get xmodel targetting KV260.
 
@@ -77,11 +77,11 @@ The name of quantized model is `ELM_CNN_int.xmodel`.Next, use the compile.sh to 
 source compile.sh kv260 ${BUILD} ${LOG} ELM_CNN
 ```
 
-![image-20220327095908180](images\image-20220327095908180.png)
+![image-20220327095908180](images/image-20220327095908180.png)
 
 We can read from `meta.json` file to know it is a new ELM model.
 
-![image-20220327095710145](images\image-20220327095710145.png)
+![image-20220327095710145](images/image-20220327095710145.png)
 
 ## Step Four:  Software Implementation
 
@@ -122,5 +122,5 @@ Compared the mid-output(left) with original data(right), it is has more repeated
 I have no idea at this moment, hope I can figure it out later.
 
 <center class="half">
-    <img src="images\image-20220327174632408.png" alt="image-20220327161712466" width="200" style="zoom:200%;"/><img src="images\image-20220327174709071.png" width="200" style="zoom:200%;"/>
+    <img src="images/image-20220327174632408.png" alt="image-20220327161712466" width="200" style="zoom:200%;"/><img src="images/image-20220327174709071.png" width="200" style="zoom:200%;"/>
 </center>
