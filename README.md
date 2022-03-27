@@ -34,6 +34,12 @@ This might be the **first** ELM implementation on KV260. I take advantage of KV2
 
 The intention is to get the `quant_info.json file`, please rename it to `CNN_quant_info.json`, which will be overwrite if not changed. The usage will be talked later.
 
+You should finish Step 0 and Step 1.
+
+Note that there is no need for you to clone that projeect.
+
+![image-20220327181738093](images/image-20220327181738093.png)
+
 ## Step Two: Generate ELM model
 
 ### generate float model
