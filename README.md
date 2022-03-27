@@ -7,8 +7,8 @@ ELM(Extreme Learning Machine) is a machine learning algorithm which has almost t
 
 - Random generating parameters with normal distribution
 - Only the last layer’s params are trainable, so we freeze the prior layers.
-- The formula to represent ELM is ${H}{\beta}=T$, where H is the output of previous hidden layers. Beta is the output layer param, T is expected output.
-- Compute hidden layer Matrix H, so ${\beta}=H^{\dagger}T$, which “solves” the params instead of finding minimum using GD(Gradient Descent). 
+- The formula to represent ELM is <img src="http://latex.codecogs.com/gif.latex?{H}{\beta}=T" />, where H is the output of previous hidden layers. Beta is the output layer param, T is expected output.
+- Compute hidden layer Matrix H, so <img src="http://latex.codecogs.com/gif.latex?{\beta}=H^{\dagger}T" />, which “solves” the params instead of finding minimum using GD(Gradient Descent). 
 
 ## Benefits and Problems 
 
