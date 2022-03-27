@@ -59,7 +59,7 @@ At this time, you will get a quant_info.json for the new model. I named ELM_CNN.
 
 For example:
 
-```json
+```
 "ELM_CNN::network.0.weight":[8,null] to "ELM_CNN::network.0.weight":[8,7] 
 ```
 
